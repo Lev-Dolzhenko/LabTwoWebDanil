@@ -1,0 +1,40 @@
+.footer {
+  padding: 100px 0;
+}
+
+.footer__row {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 14px;
+
+  max-width: 300px;
+}
+
+.footer__item {
+  &:not(:first-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.footer__item-title {
+  margin-bottom: 20px;
+}
+
+.footer__sublist {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footer__subitem {
+  height: 30px;
+  width: 30px;
+}

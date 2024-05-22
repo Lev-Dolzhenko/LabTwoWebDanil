@@ -1,0 +1,92 @@
+.account {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  border-radius: 10px;
+
+  height: 350px;
+  width: 500px;
+
+  padding: 10px;
+}
+
+.account__wrapper {
+}
+
+.account__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+
+  margin-top: 50px;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: black;
+    border-radius: 5px;
+
+    padding: 5px 0;
+
+    width: 150px;
+
+    transition: all 0.2s linear;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.account__wrapper--login {
+}
+
+.account__wrapper--signin {
+}
+
+.account__wrapper--login-form,
+.account__wrapper--signin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+  margin-top: 40px;
+
+  input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 3px;
+    color: black;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    width: 50%;
+
+    padding: 10px 0;
+  }
+}
+
+.account__button--close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+
+  width: 30px;
+  height: 30px;
+}

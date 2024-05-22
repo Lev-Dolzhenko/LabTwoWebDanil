@@ -1,0 +1,16 @@
+@keyframes showSecondPlan {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes hideSecondPlan {
+  from {
+    top: 0%;
+  }
+  to {
+    top: -100%;
+  }
+}

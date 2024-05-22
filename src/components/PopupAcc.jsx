@@ -5,10 +5,7 @@ const PopupAcc = ({ isPopupAcc, setIsPopupAcc, name, setName }) => {
   const [isLog, setIsLog] = useState("Login");
   const [pass, setPass] = useState("");
   const [log, setLog] = useState("");
-  const [accounts, setAccounts] = useState([
-    { name: "Leo", pass: "123" },
-    { name: "Pavel", pass: "123" },
-  ]);
+  const [accounts, setAccounts] = useState([{ name: "Danil", pass: "123" }]);
 
   const authUser = (e, log, pass) => {
     e.preventDefault();
